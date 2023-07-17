@@ -6,8 +6,6 @@ public class Demo {
 		System.out.println("Hello java");
 		
 		int a = 10;
-		int b = 20;
-		String myFirstName = "Seema";
 		System.out.println(a);
 	}
 	

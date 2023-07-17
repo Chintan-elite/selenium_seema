@@ -1,0 +1,16 @@
+
+public class Datatypes {
+	public static void main(String[] args) {
+		
+		 byte b = -128;
+		 short s = 32767;
+		 int i = 2656;
+		 long l = 565656565;
+		 
+		 float f = 45f;
+		System.out.println(f);
+		double d = 4646.5656;
+		System.out.println(d);
+		
+	}
+}
