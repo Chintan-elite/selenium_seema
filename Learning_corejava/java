@@ -37,6 +37,38 @@ double 0.0		8 byte
 char   _		2 byte
 boolean false	1 bit
 
+Datatype casting : 
+convert one type of data into another type
+
+types : 
+widning / implicite
+Nerrowing / Explicite
+
+*************************************
+Oprators : 
+
+1 : arithmatic : +,-,*,/,%
+2 : Relational : <,>,=,==,<=,>=
+3 : logical : &&,||, !
+4 : unary  : post++, post--, ++pre, --pre
+5 : turnary : condition ? true : false
+
+*************************************
+Statements : 
+
+conditional
+if
+if-else
+switch-case
+
+looping
+for
+while
+do-while
+
+
+
+
 
 
 
