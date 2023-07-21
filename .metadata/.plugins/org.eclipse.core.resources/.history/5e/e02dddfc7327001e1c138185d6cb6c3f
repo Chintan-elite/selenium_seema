@@ -1,0 +1,23 @@
+package statements;
+
+public class S004_SwitchCase {
+	public static void main(String[] args) {
+		
+		String grade = "A";
+		
+		switch(grade)
+		{
+		case "A" :
+			System.out.println("Very good !!!");
+		case "B" :
+			System.out.println("Good !!!");
+		case "C" :
+			System.out.println("Need improvement");
+			
+		}
+		
+		
+		
+		
+	}
+}

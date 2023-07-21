@@ -66,6 +66,11 @@ for
 while
 do-while
 
+practice work : 
+create calculator
+take 2 number and 1 choice from user
+choice : add, mul, div, sub
+as per choice perform opration on those two numbers
 
 
 
