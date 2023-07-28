@@ -72,6 +72,29 @@ take 2 number and 1 choice from user
 choice : add, mul, div, sub
 as per choice perform opration on those two numbers
 
+*******************************************
+Array : 
+collection of same type of data
+ 
+int a[] = new int[10]; 
+a[0] = 10
+.
+.
+a[9] = 100
+index always start with 0.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

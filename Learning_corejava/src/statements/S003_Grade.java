@@ -5,15 +5,14 @@ import java.util.Scanner;
 public class S003_Grade {
 	public static void main(String[] args) {
 		
-		//91 - 100 : A
-		//71 - 90 : B
-		//51 - 70 : C
-		//35 - 50 : D
-		//0 - 34 : Fail
-		//invalid
+		
+		int marks = 0;
+		
+		do
+		{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter marks : ");
-		int marks = sc.nextInt();
+		marks = sc.nextInt();
 		
 		if(marks>90 && marks<=100)
 		{
@@ -31,9 +30,13 @@ public class S003_Grade {
 		{
 			System.out.println("Grade D");
 		}
-		else if(marks>=0 && marks<=34)
+		else if(marks>=1 && marks<=34)
 		{
 			System.out.println("Fail");
+		}
+		else if(marks==0)
+		{
+			System.out.println("Exit !!!!");
 		}
 		else
 		{
@@ -41,7 +44,7 @@ public class S003_Grade {
 		}
 		
 		
-		
+		}while(marks !=0);
 		
 	}
 }

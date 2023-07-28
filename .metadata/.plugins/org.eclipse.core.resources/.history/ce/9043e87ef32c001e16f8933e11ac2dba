@@ -1,0 +1,19 @@
+package array;
+
+public class A001_ArrayDemo {
+			
+	
+		public static void main(String[] args) {
+			
+			
+		
+			
+			
+		String r = 	(10>5) ? "10 is greater" : "5 is greater";
+			
+		System.out.println(r);
+		
+		}
+	
+	
+}
