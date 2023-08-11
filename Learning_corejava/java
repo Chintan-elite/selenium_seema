@@ -98,6 +98,140 @@ inheritance
 polymorphism
 abstraction
 
+Object : 
+realtime entity / instance of class
+
+-every object have state and behaviour : 
+state / variables/ field / datamember
+
+behaviour / methods / functions / functionmember
+ex : 
+accessmodifier returntype methodname(args)
+{
+	//body
+}
+public void display()
+{
+/	/LOGIC
+}
+
+Object : 
+ex : 
+class Pen
+{
+}
+
+Pen p = new Pen();
+
+
+**datamember and function member can be of 2 types
+static - create single copy in a memory
+non static - create copy as per object creation
+
+
+class : 
+logical entity / group of object
+
+
+Constructor : 
+same name as a class name
+intialisation 
+
+2 types of cons.
+-default - 0 parameterised
+-user define - parameterised
+
+****************************************************************
+Inheritance : 
+*************
+inheritanc in java is a mecanism in which one object aquire all the property 
+of its parent object
+
+A --- > B : single 
+
+A-->B-->C : multilevel
+
+A-->B   : hierirchical
+|-->C
+
+A-->C  : multiple - this is not supported in java
+B--|
+
+
+***************************
+Access modifier : 
+public : anywhere
+private : within class only
+protected : within package , out side the package using inheritance
+default : within package only
+
+***************************
+Encaptulation : 
+abstraction
+
+impclasses : 
+string
+string buffer - string builder
+wrapper
+object
+
+exception
+fileio
+thread
+collection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

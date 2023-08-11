@@ -2,4 +2,12 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="oops.Pen"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="oops.Student"/>
+    <fullyQualifiedTypeName name="oops.Emp"/>
+    <fullyQualifiedTypeName name="oops.B"/>
+    <fullyQualifiedTypeName name="oops.A"/>
+    <fullyQualifiedTypeName name="oops.Demo"/>
+    <fullyQualifiedTypeName name="oops.Calc"/>
 </qualifiedTypeNameHistroy>

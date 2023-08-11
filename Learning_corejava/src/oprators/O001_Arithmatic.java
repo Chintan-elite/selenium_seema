@@ -1,6 +1,10 @@
 package oprators;
 
-public class O001_Arithmatic {
+import oops.Demo;
+
+public class O001_Arithmatic  {
+	
+	
 	
 	public static void main(String[] args) {
 		
@@ -20,6 +24,8 @@ public class O001_Arithmatic {
 //		System.out.println(a*b);
 //		System.out.println(a/b);
 //		System.out.println(a%b);
+		
+		
 		
 		
 	}

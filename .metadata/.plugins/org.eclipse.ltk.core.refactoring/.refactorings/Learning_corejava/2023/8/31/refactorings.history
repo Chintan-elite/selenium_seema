@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;oops.O002_ObjectDemo&apos; to &apos;O002_Constructor&apos;&#x0D;&#x0A;- Original project: &apos;Learning_corejava&apos;&#x0D;&#x0A;- Original element: &apos;oops.O002_ObjectDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;oops.O002_Constructor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;O002_ObjectDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;oops{O002_ObjectDemo.java[O002_ObjectDemo" matchStrategy="1" name="O002_Constructor" qualified="false" references="true" similarDeclarations="false" stamp="1690944467828" textual="false" version="1.0"/>
+</session>

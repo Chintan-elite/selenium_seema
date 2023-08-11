@@ -1,0 +1,159 @@
+core java : 
+******************
+Variables : 
+***********
+A variable is a container which holds the value 
+while the Java program is executed. 
+A variable is assigned with a data type.
+Variable is a name of memory location.
+
+1 : A variable name can consist of Capital letters A-Z, lowercase letters a-z digits 0-9, and two special characters such as _ underscore and $ dollar sign.
+2 : The first character must not be a digit.
+3 : Blank spaces cannot be used in variable names.
+4 : Java keywords cannot be used as variable names.
+5 : Variable names are case-sensitive.
+6 : There is no limit on the length of a variable name but by convention, it should be between 4 to 15 chars.
+7 : Variable names always should exist on the left-hand side of assignment operators.
+
+
+Datatypes : 
+************
+1 bit
+8 bit => 1 byte
+1024 byte => 1kb
+1024 kb => 1mb
+1024 mb => 1gb
+1024 gb => 1tb
+
+
+byte   0      	1 byte  2^7 - 1 to -2^7  : 127 to -128 
+short  0	 	2 byte  2^15 -1 to -2^15 : 32767 to 32768
+int    0		4 byte  
+long   0		8 byte
+
+float  0.0		4 byte
+double 0.0		8 byte
+
+char   _		2 byte
+boolean false	1 bit
+
+Datatype casting : 
+convert one type of data into another type
+
+types : 
+widning / implicite
+Nerrowing / Explicite
+
+*************************************
+Oprators : 
+
+1 : arithmatic : +,-,*,/,%
+2 : Relational : <,>,=,==,<=,>=
+3 : logical : &&,||, !
+4 : unary  : post++, post--, ++pre, --pre
+5 : turnary : condition ? true : false
+
+*************************************
+Statements : 
+
+conditional
+if
+if-else
+switch-case
+
+looping
+for
+while
+do-while
+
+practice work : 
+create calculator
+take 2 number and 1 choice from user
+choice : add, mul, div, sub
+as per choice perform opration on those two numbers
+
+*******************************************
+Array : 
+collection of same type of data
+ 
+int a[] = new int[10]; 
+a[0] = 10
+.
+.
+a[9] = 100
+index always start with 0.
+
+types of an array
+1-D array
+M-D array
+
+******************************
+OOPS : Object oriented programming, c++, C#, java
+POP : proceser oriented, ex : C
+
+class
+object
+encaptulation
+inheritance
+polymorphism
+abstraction
+
+Object : 
+realtime entity / instance of class
+
+-every object have state and behaviour : 
+state / variables/ field / datamember
+
+behaviour / methods / functions / functionmember
+ex : 
+accessmodifier returntype methodname(args)
+{
+	//body
+}
+public void display()
+{
+/	/LOGIC
+}
+
+Object : 
+ex : 
+class Pen
+{
+}
+
+Pen p = new Pen();
+
+
+class : 
+logical entity / group of object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
