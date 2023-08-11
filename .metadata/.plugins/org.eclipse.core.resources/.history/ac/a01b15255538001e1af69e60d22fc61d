@@ -1,0 +1,24 @@
+package oops;
+
+
+class Super
+{
+	public void run()
+	{
+		System.out.println("Running super class run method");
+	}
+}
+
+class Sub extends Super
+{
+	
+}
+
+public class O010_Overriding {
+	public static void main(String[] args) {
+		
+		Sub s = new Sub();
+		s.run();
+		
+	}
+}

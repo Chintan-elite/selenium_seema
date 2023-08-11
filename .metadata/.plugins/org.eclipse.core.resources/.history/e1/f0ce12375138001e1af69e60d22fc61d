@@ -1,0 +1,15 @@
+package oops;
+
+public class O006_EncaptulationDemo {
+	public static void main(String[] args) {
+		
+		Product p = new Product();
+		p.setName("Fan");
+		p.setPrice(1000);
+		p.setQty(10);
+
+		
+		
+		
+	}
+}

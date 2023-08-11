@@ -1,0 +1,12 @@
+package oops;
+
+public class O006_EncaptulationDemo {
+	public static void main(String[] args) {
+		
+		Product p = new Product();
+		p.setdata("Fan", 1200, 10);
+		p.display();
+		
+		
+	}
+}

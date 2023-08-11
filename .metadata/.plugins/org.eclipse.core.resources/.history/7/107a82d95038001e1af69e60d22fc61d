@@ -1,0 +1,14 @@
+package oops;
+
+public class Product {
+		
+		private String name;
+		private int price;
+		private int qty;
+		
+		public void display()
+		{
+			System.out.println(name+" "+price+" "+qty);
+		}
+		
+}

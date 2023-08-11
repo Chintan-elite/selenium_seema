@@ -1,0 +1,20 @@
+package oops;
+
+
+class A
+{
+	public void add(int a, int b)
+	{
+		int c  =a+b;
+		System.out.println("Additoin is : "+c);
+	}
+}
+public class O009_verloading {
+	public static void main(String[] args) {
+		
+		
+		A a = new A();
+		a.add(10, 20);
+		
+	}
+}

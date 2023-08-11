@@ -1,0 +1,31 @@
+package oops;
+
+interface Inter
+{
+	public void display();
+	
+}
+
+class Extra
+{
+	
+}
+
+class Interimpl extends Extra implements Inter
+{
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class O008_Interface {
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}
