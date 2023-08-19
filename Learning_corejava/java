@@ -223,6 +223,7 @@ polymorphism
 compiletime : methodoverloading
 Runtime : methodoverriding
 
+***************************************
 
 impclasses : 
 string
@@ -231,7 +232,41 @@ wrapper
 object
 
 exception
+problem accures during execution of program
+
+compiletime exception ----> Exeption
+filenotfound
+classnotfound
+sqlexception
+
+
+runtime exception --->RuntimeExeption --->Exception
+arithmatic
+arrayindexoutofbound
+
+---
+try{
+}
+catch()
+{}
+
+
 fileio
+***********************************
+stream : flow of data
+
+writing file => fileop
+reading file => fileinput
+
+byte : 
+FileOutputStream
+FileInputStream
+
+char
+FileReader
+FileWriter
+
+
 thread
 collection
 
