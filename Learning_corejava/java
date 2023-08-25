@@ -266,8 +266,11 @@ char
 FileReader
 FileWriter
 
+File
+
 
 thread
+
 collection
 
 

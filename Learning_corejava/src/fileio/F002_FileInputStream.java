@@ -7,9 +7,9 @@ import java.io.IOException;
 public class F002_FileInputStream {
 	public static void main(String[] args) {
 		
-		
+		FileInputStream fis = null;
 		try {
-			FileInputStream fis = new FileInputStream("d://test/test.txt");
+			 fis = new FileInputStream("d://test/test.txt");
 		
 			int i =  fis.read();
 			
@@ -25,7 +25,14 @@ public class F002_FileInputStream {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+		finally {
+			try {
+				fis.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 		
 	}
 }
