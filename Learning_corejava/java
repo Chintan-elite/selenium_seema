@@ -271,9 +271,13 @@ File
 
 thread
 
-collection
+collection : 
+int a[] = new int[5]
 
-
+1
+2
+3
+4
 
 
 
