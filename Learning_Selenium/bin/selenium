@@ -1,0 +1,29 @@
+Qtp : quick test pro
+-commercial , own by hp
+-windows
+
+Selenium :
+-open source
+-all os
+
+*************************
+Selenium IDE : 
+- Record and replay
+- prototype crete
+
+Selenium RC - Remote control
+support lang : java, php, python, perl, ruby, c#
+
+selenium code ---middleware:js server --- browser
+
+Selenium Webdriver
+support lang : java, php, python, perl, ruby, c#
+
+seleniumcode ------ browser
+
+Selenium Grid : 
+parallel testiong
+
+node ---> hub <---Node
+		   |
+		  Node
