@@ -27,3 +27,37 @@ parallel testiong
 node ---> hub <---Node
 		   |
 		  Node
+		  
+*************************************
+WebElements : 
+textbox
+buttons
+radiobuttons
+checkbox
+dropdown
+link
+
+Locators : 
+id
+name
+classname
+xpath
+css selectors
+linktext
+partial linktext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
