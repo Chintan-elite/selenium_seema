@@ -47,7 +47,7 @@ public class B010_DynamicWebtable {
 			String h = height.getText();
 			int i = Integer.parseInt(h.substring(0,3));
 			
-			if(i>0)
+			if(i>max)
 			{
 				max = i;
 			}
