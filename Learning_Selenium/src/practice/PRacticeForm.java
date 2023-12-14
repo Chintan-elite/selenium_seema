@@ -11,6 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import util.DriverConnection;
+import util.ScreenShotTaker;
 
 public class PRacticeForm {
 	public static void main(String[] args) {
@@ -76,6 +77,7 @@ public class PRacticeForm {
 		driver.findElement(By.id("uploadPicture")).sendKeys("C:\\Users\\CHINTAN\\OneDrive\\Desktop\\chintan.docx");
 		
 		driver.findElement(By.id("currentAddress")).sendKeys("surat,gujarat");
+		ScreenShotTaker.getScreenShot(driver, "D:\\test\\reg.png");
 		
 		
 	}
